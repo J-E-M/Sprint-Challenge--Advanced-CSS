@@ -1,1 +1,9 @@
 // Mixins Here
+.button-styles (@bg-color, @text-size, @radius,@text-color ) {
+  background-color: @bg-color;
+  font-size:@text-size;
+  border-radius: @radius;
+  color: @text-color;
+}
+
+@phone :(max-width: 500px);
