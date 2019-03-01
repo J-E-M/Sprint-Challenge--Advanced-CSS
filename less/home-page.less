@@ -11,7 +11,7 @@
     p {
       padding:0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -58,13 +58,21 @@
       }
 
       .btn {
+        .btn-styles (white, black, 15px);
+        padding: 10px 20px 10px 20px;
+        font-size: 2rem;
+        cursor: pointer;
+        &:hover {
+          color: black;
+          background-color: white;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -73,3 +81,7 @@
     }
   }
 }// home
+
+.header-img {
+  border-radius: 5px;
+}
