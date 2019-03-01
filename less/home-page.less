@@ -6,7 +6,6 @@
 
     h2 {
       padding: 15px;
-    }
 
     p {
       padding:0 15px;
@@ -24,6 +23,8 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+
     }
   }
 
@@ -58,13 +59,14 @@
       }
 
       .btn {
-        .btn-styles (white, black, 15px);
-        padding: 10px 20px 10px 20px;
-        font-size: 2rem;
+        .button-styles (@shuttle-gray, 2rem, 5px, white) ;
+        padding: 9px 27px;
+        margin-right: 217px;
         cursor: pointer;
+
         &:hover {
-          color: black;
           background-color: white;
+          color:@shuttle-gray;
         }
       }
     }
@@ -80,8 +82,5 @@
       }
     }
   }
-}// home
-
-.header-img {
-  border-radius: 5px;
 }
+}// home
